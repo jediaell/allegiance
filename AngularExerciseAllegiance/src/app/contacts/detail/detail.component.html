@@ -1,0 +1,15 @@
+<div class="card" style="margin-left: auto; margin-right: auto;margin-top: 30px;" >
+    <div class="card-body" *ngIf="contact !== undefined">
+      <h1 class="card-title">Contact Detail</h1>
+      <p class="card-text">Salutation: {{contact.salutation}}</p>
+      <p class="card-text">First Name: {{contact.firstName}}</p>      
+      <p class="card-text">Last Name: {{contact.lastName}}</p>      
+      <p class="card-text">Address Line 1: {{contact.addressLine1}}</p>      
+      <p class="card-text">Address Line 2: {{contact.addressLine2}}</p>      
+      <p class="card-text">City: {{contact.city}}</p>      
+      <p class="card-text">State: {{contact.state}}</p>      
+      <p class="card-text">Zip Code: {{contact.zipCode}}</p>      
+      <p class="card-text">Email Address: {{contact.emailAddress}}</p>      
+      <p class="card-text">Phone Number: {{contact.telePhoneNumber}}</p>      
+    </div>
+</div>
